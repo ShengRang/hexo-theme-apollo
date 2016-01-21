@@ -1,11 +1,11 @@
 menu:
-    博客: /
-    微博: http://weibo.com/sunchongsheng
+    Site: /
+    #微博: http://weibo.com/
     rss: /atom.xml
-    github: https://github.com/pinggod
+    github: https://github.com/NJUST-FishTeam/
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: /ICPC-Logo-Fishead.png
+logo: /ICPC-Logo-Fishead.png
 
 # comment
 # e.g disqus: seansun
@@ -13,6 +13,6 @@ disqus:
 duoshuo: 
 
 # google-analytics:
-ga: UA-65933410-1
+#ga: UA-65933410-1
 # baidu-analytics:
-ba: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
+#ba: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
