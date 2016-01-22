@@ -10,6 +10,8 @@ mixin home()
             a.next(href=url_for(next)) 下一页
         else
             a.prev 
+        include ./beian
+        +beian(theme.beian)
 
 mixin post()
     - var prev = page.prev ? page.prev.path : false;
