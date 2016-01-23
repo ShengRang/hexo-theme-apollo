@@ -3,6 +3,7 @@ menu:
     #微博: http://weibo.com/
     rss: /atom.xml
     github: https://github.com/NJUST-FishTeam/
+    OJ: https://icpc.njust.edu.cn/
 
 favicon: /ICPC-Logo-Fishead.png
 logo: /ICPC-Logo-Fishead.png
