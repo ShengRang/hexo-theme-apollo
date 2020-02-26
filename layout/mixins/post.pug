@@ -34,6 +34,29 @@ mixin postList()
                     != item.title
         - })
 
+//- Archive Page
+mixin tagList()
+    .archive.tags
+        h2 #{page.tag}
+        - var year = 0;
+        - var change = false;
+        - page.posts.each(function (item) {
+            - var itemYear = date(item.date, 'YYYY') - 0;
+            - change = year !== itemYear;
+            - year = change ? itemYear : year;
+            if change 
+                h2.archive-year!= year
+            .post-item
+                +postInfo(item)
+                a.post-title-link(href= url_for(item.path))
+                    != item.title
+        - })
+
+//- tags cloud
+mixin tags()
+    .tags
+        | !{ tagcloud(site.tags, { min_font: 0.75, max_font: 1.5, unit: 'rem'} ) }
+
 //- Post Page
 mixin post(item)
     .post

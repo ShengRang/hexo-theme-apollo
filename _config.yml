@@ -1,11 +1,12 @@
 menu:
     Blog: /
     Archive: /archives/
+    tags: /tags/
     GitHub: https://github.com/ShengRang
-    Rss: /atom.xml
+    # Rss: /atom.xml
 
-favicon: /favicon.png
-logo: /bien.gif
+favicon: /lucid5.jpg
+logo: /mogu.gif
 
 # Comment
 # e.g disqus: seansun

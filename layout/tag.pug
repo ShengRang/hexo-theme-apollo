@@ -1,15 +1,15 @@
 extends partial/layout
 
 block site_title
-    != page.title + " · " + config.title
+    != page.tag + " · " + config.title
 
 block description
-    - desc = page.desc || page.title + ' - ' + config.author;
+    - desc = page.desc || page.tag + ' - ' + config.author;
     meta(name="description", content=desc)
 
 block container
     include mixins/post
-    +post(page)
+    +tagList()
 
 block pagination
     include mixins/paginator
